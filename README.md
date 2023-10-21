@@ -1,8 +1,15 @@
-# React + Vite
+# Code Editor (C++)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a C++ Code Editor where you can write your C++ programming code.
+## Features:
+1) Copy button to copy the code to your clipboard.
+2) Save button to save your code so it does not get lost when page is refreshed.
+3) Lock/Unlock button to make the editor Read Only and revert it back.
 
-Currently, two official plugins are available:
+## Website Link:
+https://code-editor-cpp.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Dependencies:
+npm create vite@latest app -- --template react\
+npm install\
+npm install @monaco-editor/react
